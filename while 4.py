@@ -1,0 +1,13 @@
+n1=1
+n2=eval(input("Dati numarul:"))
+suma=0
+produsul=1
+i=0
+while i!=n2:
+    i+=1
+    suma+=i
+    produsul*=i
+media= suma/n2    
+print("Suma=", suma)
+print("Produsul=", produsul)
+print("Media=", media)
